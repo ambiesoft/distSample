@@ -1,0 +1,26 @@
+{
+    "name": "distSample",
+    "solution": "distSample.sln",
+    "targetproject": "distSample",
+    "configuration": "Release",
+    "targets": [
+        {
+            "setoutdirforbuild": false,
+            "platform": "Win32",
+            "outdir": "c:\\Linkout\\distSample"
+        }
+    ],
+    "ShouldBeFiles": [
+        "distSample.exe",
+        "distSample.pdb",
+        "History.txt"
+    ],
+    "TotalFileCount": 3,
+    "archivedir": "c:\\Linkout",
+    "remotedir": "http://ambiesoft.fam.cx/ffdav/uploads/distSample/",
+    "remotesha1": "http://ambiesoft.fam.cx/ffdav/uploads/getSha1.php?file=distSample/{}",
+    "ShouldNotBeFiles": [],
+    "ShouldBeOneOfThem": [],
+    "obtainverfrom": "history.txt",
+    "obtainverregex": "\\d+\\.\\d+"
+}
